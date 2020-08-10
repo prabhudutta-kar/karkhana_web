@@ -13298,8 +13298,8 @@ h1 a{color:#131313; font-weight:bold;} */
 }
 .gradient{
   background: rgb(10,143,137);
-background: -moz-radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
-background: -webkit-radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
-background: radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a8f89",endColorstr="#30ba75",GradientType=1); 
+  background: -moz-radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
+  background: -webkit-radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
+  background: radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a8f89",endColorstr="#30ba75",GradientType=1); 
 }
