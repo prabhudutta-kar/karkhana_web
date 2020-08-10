@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="Karkhana" />
-
     <link
       href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700"
       rel="stylesheet"
@@ -25,8 +22,45 @@
     />
     <link rel="stylesheet" href="css/fonts.css" type="text/css" />
     <link rel="stylesheet" href="coworking.css" type="text/css" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Karkhana" />
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="css/colors5533.css?color=0A8F89"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="coworking.css" type="text/css" />
     <script src="jquery.js"></script> 
     <title>Karkhana Makerspace - Blending Hardware</title>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script  type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+            var OriginalPageContents = "";
+            $(function() {
+                $("body").on('click', 'a#print-link', function() {
+                    OriginalPageContents = $('body').clone(true);
+
+                    var Iframe_content_area_to_print = $("#original_iframe_content").contents().find('#Iframe_content_area_to_print').html();
+                    $("body").html("");
+                    $('body').html(Iframe_content_area_to_print);
+                    window.print();
+                    $("body").remove();
+                    $("html").append(OriginalPageContents);
+
+                });
+
+
+            });
+        </script>
+        
   </head>
   <body class="stretched">
     <div id="fb-root"></div>
@@ -58,18 +92,42 @@
             </div>
 
             <nav id="primary-menu">
-              <ul>
-                <li>
-                  <h2 class="nott t600 display-4" style="text-align: center;">
-                    LEVEL-1 CERTIFICATE
-                  </h2>
-              </ul>
-              </nav>
+              <div id="top-account">
+                <a href="./quiz1/quiz.html"><span>Quiz</span></a>
+              </div>
+            </nav>
           </div>
         </div>
       </header>
-      
       <section>
+        <div
+        style="
+          height: 100px;
+          width: 100%;
+        "
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <!-- <h2 class="text-white">
+                The Center is a network of 2 makerspaces, from 1000 to 1600
+                sqft, Build and Designed to support Personal and Businesses
+                in the Creative World.
+              </h2> -->
+            </div>
+          </div>
+        </div>
+      </div>
+        <div>
+          <div class="shadow-sm hero-features bgcolor gradient">
+            <div class="row">
+                  </div>
+                  <h1 class="text-white">Certificate Programs for Makers</h1>
+                </div>
+              </div>
+              </div>
+              </div>
+        </div>
         <div class="box">
           <iframe src="./ppt/ppt.html" frameborder="0" scrolling="no" width="40%" height="450" align="left"> </iframe>
         </div>
@@ -77,16 +135,6 @@
         <div class="box">
           <iframe src="./blockly/tests/generators/index.html" frameborder="0" scrolling="no" width="60%" height="450" align="right"></iframe>
         </div>  
-      </section>
-      <section>
-        <div class="container">
-          <br />
-          <h2 class="nott t600 display-4"></p>Quiz</h2>
-                  <h4 class="t300 mb-4">
-                    Complete the quiz to get your certificate</a>
-                  </h4>
-                  <a href="./quiz1/quiz.html", class="button button-rounded button-xlarge m-0 nott t600 ls0 px-5">Quiz</a>
-        </div>
       </section>
       <p>
         <br />
