@@ -13303,3 +13303,7 @@ h1 a{color:#131313; font-weight:bold;} */
   background: radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a8f89",endColorstr="#30ba75",GradientType=1); 
 }
+.grid-container {
+  display: grid;
+  grid-gap: 50px 100px;
+}
