@@ -7064,7 +7064,7 @@ body:not(.device-touch) .button.button-full strong {
 }
 .feature-box.fbox-plain.fbox-dark .fbox-icon i,
 .feature-box.fbox-plain.fbox-dark .fbox-icon img {
-  color: #444;
+  color: rgb(255, 253, 253);
 }
 .feature-box.fbox-center {
   padding: 0;
@@ -13296,12 +13296,12 @@ h1 a{color:#131313; font-weight:bold;} */
   background-attachment: fixed;
   background-position: center;
 }
-.gradient{
-  background: rgb(10,143,137);
-  background: -moz-radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
+.gradient {
+  background: rgb(10, 143, 137);
+  /* background: -moz-radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
   background: -webkit-radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
   background: radial-gradient(circle, rgba(10,143,137,1) 49%, rgba(48,186,117,1) 96%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a8f89",endColorstr="#30ba75",GradientType=1); 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a8f89",endColorstr="#30ba75",GradientType=1);  */
 }
 .grid-container {
   display: grid;
