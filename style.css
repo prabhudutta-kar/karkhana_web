@@ -191,7 +191,7 @@ small {
   clear: both;
   position: relative;
   width: 100%;
-  margin: 60px 0;
+  margin: 20px 0;
   border-top: 1px solid #eee;
 }
 .line.line-sm {
@@ -11162,7 +11162,7 @@ button.toast-close-button {
 }
 #footer .footer-widgets-wrap {
   position: relative;
-  padding: 80px 0;
+  padding: 30px 0;
 }
 .footer-widgets-wrap .col_five_sixth,
 .footer-widgets-wrap .col_four_fifth,
@@ -11179,7 +11179,7 @@ button.toast-close-button {
   margin-bottom: 0;
 }
 #copyrights {
-  padding: 40px 0;
+  padding: 10px 0;
   background-color: #ddd;
   font-size: 14px;
   line-height: 1.8;
