@@ -223,7 +223,7 @@
   background-color: rgba(38, 125, 244, 0.8);
   background-color: rgba(var(--themecolorrgba), 0.8);
 }
-.testimonials .container:before,
+/* .testimonials .container:before,
 .testimonials .container:after {
   content: "\e7ad";
   font-family: font-icons;
@@ -240,7 +240,7 @@
   left: auto;
   right: 20px;
   bottom: -45px;
-}
+} */
 .testimonials .testi-content p {
   font-style: normal;
   color: #000;
