@@ -73,7 +73,7 @@
 
               <div id="top-account">
                 <a href="#"
-                  ><i class="icon-user"></i>
+                  ><i class="flaticon-login-1"></i>
                   <span style="letter-spacing: 3px;">Login / Register</span></a
                 >
               </div>
@@ -141,7 +141,7 @@
           </div>
           <div class="bg-theme-light">
             <div class="shadow-sm hero-features bgcolor gradient">
-              <div class="row">
+              <div class="row" id="desktop-preview">
                 <div class="col-md-4 mt-3 mt-md-0">
                   <div class="feature-box fbox-plain fbox-small fbox-dark mb-0">
                     <div class="fbox-icon">
@@ -183,6 +183,33 @@
                   </div>
                 </div>
               </div>
+              <!-- mobile view options -->
+              <div class="row" id="mobile-preview">
+                <div class="col-md-4 mt-3 mt-md-0">
+                  <div class="feature-box fbox-plain fbox-small fbox-dark mb-0">
+                    <div class="fbox-icon">
+                      <i class="flaticon-discover"></i>
+                    </div>
+                    <a href="#"
+                      ><h3 class="text-white" style="letter-spacing: 2px;">
+                        Setup Makerspace
+                      </h3></a
+                    >
+                  </div>
+                </div>
+                <div class="col-md-4 mt-3 mt-md-0">
+                  <div class="feature-box fbox-plain fbox-small fbox-dark mb-0">
+                    <div class="fbox-icon">
+                      <i class="flaticon-class"></i>
+                    </div>
+                    <a href="./virtual_course.html">
+                      <h3 class="text-white" style="letter-spacing: 2px;">
+                        Virtual Program
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div
@@ -192,7 +219,7 @@
             <div class="container clearfix">
               <div class="row align-items-md-center mb-5">
                 <div class="col-md-6 pr-5">
-                  <div class="heading-block mb-4 nobottomborder">
+                  <div class="heading-block mb-4 nobottomborder" id="working">
                     <!-- <div class="before-heading">Know More</div> -->
                     <h2
                       class="nott t600"
@@ -234,12 +261,16 @@
                         <span
                           data-from="1"
                           data-to="3"
-                          data-refresh-interval="2"
-                          data-speed="1000"
+                          data-refresh-interval="1"
+                          data-speed="600"
                         ></span
                         >+
                       </div>
-                      <h5 class="mt-0 t500">Fablabs/Makerspace/ATL Lab</h5>
+                      <h5 class="mt-0 t500">
+                        Fablab <br />
+                        Makerspace <br />
+                        ATL Lab
+                      </h5>
                     </div>
                     <div class="col-6 col-sm-6 mb-4">
                       <div class="counter color t600">
@@ -284,7 +315,8 @@
             </div>
           </div>
           <div class="container">
-            <div class="row justify-content-between">
+            <!-- Desktop version -->
+            <div class="row justify-content-between" id="benefits-desktop">
               <div
                 class="col-sm-4 col-xs-4 col-lg-3 col-md-6"
                 style="text-align: center;"
@@ -416,10 +448,119 @@
                 </p>
               </div>
             </div>
+            <!-- Mobile Version -->
+            <div class="row justify-content-between" id="benefits-mobile">
+              <div class="col-6" style="text-align: center;">
+                <i
+                  class="flaticon-mortarboard color ml-0 mb-4 i-plain d-block fnone"
+                  style="width: 100% !important;"
+                ></i>
+                <h4 class="mb-3">STEM Education</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit, voluptatum!
+                </p>
+              </div>
+              <div class="col-6" style="text-align: center;">
+                <i
+                  class="flaticon-learning color ml-0 mb-3 i-plain d-block fnone"
+                  style="
+                    width: 100% !important;
+                    margin-bottom: 24px !important;
+                  "
+                ></i>
+                <h4 class="mb-3">Hands-on Learning</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit, voluptatum!
+                </p>
+              </div>
+              <div class="col-6" style="text-align: center;">
+                <i
+                  class="flaticon-think color ml-0 mb-4 i-plain d-block fnone"
+                  style="width: 100% !important;"
+                ></i>
+                <h4 class="mb-3">Develop Critical Thinking</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit, voluptatum!
+                </p>
+              </div>
+              <div class="col-6" style="text-align: center;">
+                <i
+                  class="flaticon-circuit color ml-0 mb-3 i-plain d-block fnone"
+                  style="
+                    width: 100% !important;
+                    margin-bottom: 24px !important;
+                  "
+                ></i>
+                <h4 class="mb-3">21st Century Skills</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit, voluptatum!
+                </p>
+              </div>
+              <div class="col-6" style="text-align: center;">
+                <i
+                  class="flaticon-badge color ml-0 mb-3 i-plain d-block fnone"
+                  style="
+                    width: 100% !important;
+                    margin-bottom: 24px !important;
+                  "
+                ></i>
+                <h4 class="mb-3">Makers Badge</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit, voluptatum!
+                </p>
+              </div>
+
+              <div class="col-6" style="text-align: center;">
+                <i
+                  class="flaticon-certificate color ml-0 mb-4 i-plain d-block fnone"
+                  style="width: 100% !important;"
+                ></i>
+                <h4 class="mb-3">Certificate of Recognition</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit, voluptatum!
+                </p>
+              </div>
+
+              <div class="col-6" style="text-align: center;">
+                <i
+                  class="flaticon-group color ml-0 mb-3 i-plain d-block fnone"
+                  style="
+                    width: 100% !important;
+                    margin-bottom: 24px !important;
+                  "
+                ></i>
+                <h4 class="mb-3">Makers Community</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit, voluptatum!
+                </p>
+              </div>
+
+              <div class="col-6" style="text-align: center;">
+                <i
+                  class="flaticon-teacher color ml-0 mb-3 i-plain d-block fnone"
+                  style="
+                    width: 100% !important;
+                    margin-bottom: 24px !important;
+                  "
+                ></i>
+                <h4 class="mb-3">Mentor Connect</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Suscipit, voluptatum!
+                </p>
+              </div>
+            </div>
           </div>
           <p></p>
           <p></p>
-          <div class="bg-theme-light">
+          <div class="bg-theme-light" id="certified-desktop">
             <div
               class="shadow-sm hero-features-left bgcolor gradient"
               style="margin-top: 5rem;"
@@ -439,10 +580,38 @@
               </div>
             </div>
           </div>
+          <!-- Mobile Version -->
+          <div class="bg-theme-light" id="certified-mobile">
+            <div
+              class="shadow-sm hero-features-left bgcolor gradient"
+              style="margin-top: 5rem; padding-top: 20px !important;"
+            >
+              <div class="row">
+                <div class="col-md-8 mt-3 mt-md-0">
+                  <div
+                    class="feature-box fbox-plain fbox-small fbox-dark mb-0"
+                    style="
+                      padding-left: 0 !important;
+                      text-align: center !important;
+                      color: white !important;
+                    "
+                  >
+                    <i class="flaticon-badge" style="font-weight: 100;"></i>
+                    <h2
+                      class="text-white"
+                      style="margin: 0; letter-spacing: 2px;"
+                    >
+                      Become A Certified Maker
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="section mt-0 pt-0">
             <div class="container clearfix">
               <div class="row align-items-md-center mb-5">
-                <div class="col-md-6 pr-5">
+                <div class="col-md-6 pr-5" id="live-center">
                   <div class="heading-block mb-4 nobottomborder">
                     <!-- <div class="before-heading">Know More</div> -->
                     <h2
@@ -729,27 +898,39 @@
               </div>
 
               <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6 col-md-10" style="text-align: center;">
+                <div
+                  class="col-lg-6 col-md-10"
+                  style="text-align: center;"
+                  id="featured"
+                >
                   <a
                     href="https://www.youtube.com/watch?v=HXS286LfAyU"
                     data-lightbox="iframe"
                     class="play-video position-relative"
+                    style="width: 560px; height: 315;"
                     ><img
                       src="images/video-bg.jpg"
                       alt="Video Image"
                       class="rounded-lg"
                     />
-                    <i class="icon-play"></i>
+                    <i class="flaticon-play-button"></i>
                   </a>
                 </div>
-                <div class="col-lg-5 col-md-10" style="text-align: center;">
-                  <ul class="list-group">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
+                <div class="col-lg-6 col-md-10" style="text-align: center;">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="./images/press/1.jpg" alt="" />
+                    </div>
+                    <div class="col-4">
+                      <img src="./images/press/2.jpg" alt="" />
+                    </div>
+                    <div class="col-4">
+                      <img src="./images/press/3.jpg" alt="" />
+                    </div>
+                    <div class="col-4">
+                      <img src="./images/press/4.jpg" alt="" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -794,12 +975,12 @@
                     </p>
 
                     <div class="testi-meta mt-4">
-                      <img
+                      <!-- <img
                         src="./images/authors/2.jpg"
                         class="rounded-circle"
                         alt=""
                         style="margin: auto;"
-                      />
+                      /> -->
                       <span style="font-size: 1.3rem; color: black;"
                         >Pragya Jain</span
                       >
@@ -1485,7 +1666,11 @@
           >
             <div class="container">
               <div class="row">
-                <div class="col-md-8 offset-1" style="margin-bottom: 1rem;">
+                <div
+                  class="col-md-8 offset-1"
+                  id="get-involved"
+                  style="margin-bottom: 1rem;"
+                >
                   <h2 class="nott t600 display-4">Get Involved!</h2>
                   <p style="font-size: 1.3rem;">
                     Don’t settle with a world where you have to make do with
@@ -1598,32 +1783,32 @@
                     class="social-icon si-small si-light si-facebook"
                     title="Karkhana Facebook"
                   >
-                    <i class="icon-facebook"></i>
-                    <i class="icon-facebook"></i>
+                    <i class="flaticon-facebook"></i>
+                    <i class="flaticon-facebook"></i>
                   </a>
                   <a
                     href="https://twitter.com/indiakarkhana/"
                     class="social-icon si-small si-light si-twitter"
                     title=" Karkhana Twitter"
                   >
-                    <i class="icon-twitter"></i>
-                    <i class="icon-twitter"></i>
+                    <i class="flaticon-twitter"></i>
+                    <i class="flaticon-twitter"></i>
                   </a>
                   <a
                     href="https://www.youtube.com/channel/UCLl4ECihj8hGJIGMOJKlrEQ/"
                     class="social-icon si-small si-light si-youtube"
                     title="Karkhana YouTube"
                   >
-                    <i class="icon-youtube"></i>
-                    <i class="icon-youtube"></i>
+                    <i class="flaticon-youtube"></i>
+                    <i class="flaticon-youtube"></i>
                   </a>
                   <a
                     href="https://www.instagram.com/indiakarkhana/"
                     class="social-icon si-small si-light si-instagram"
                     title="Karkhana Instagram"
                   >
-                    <i class="icon-instagram"></i>
-                    <i class="icon-instagram"></i>
+                    <i class="flaticon-instagram"></i>
+                    <i class="flaticon-instagram"></i>
                   </a>
                 </div>
                 <div class="col-sm-9">
@@ -1657,11 +1842,10 @@
             <div class="row">
               <div class="col-12">
                 <p class="mb-2 text-white-50">
-                  Copyrights &copy; 2018 All Rights Reserved by Sudolearn
-                  Solutions Pvt. Ltd.
+                  Copyrights &copy; 2020 Sudolearn Solutions Pvt. Ltd.
                 </p>
                 <div class="copyright-links text-white-50">
-                  <a href="#" class="text-white-50">Terms of Use</a> /
+                  <a href="#" class="text-white-50">Terms of Use</a>
                   <a href="#" class="text-white-50">Privacy Policy</a>
                 </div>
               </div>
@@ -1671,7 +1855,9 @@
       </footer>
     </div>
 
-    <div id="gotoTop" class="icon-angle-up"></div>
+    <div id="gotoTop" class="icon-angle-up">
+      <i class="flaticon-up-chevron"></i>
+    </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
