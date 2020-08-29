@@ -3338,7 +3338,8 @@ body.stretched .container-fullwidth .breadcrumb {
   background-color: #fff;
 }
 #content p {
-  line-height: 1.8;
+  letter-spacing: 1px;
+  line-height: 1.7;
 }
 .content-wrap {
   position: relative;
@@ -13141,7 +13142,7 @@ h1 a{color:#131313; font-weight:bold;} */
   position: absolute;
   bottom: 50%;
   left: 50%;
-  max-width: 100px;
+  max-width: fit-content;
   opacity: 1;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
   border: 2px solid rgba(255, 255, 255, 1);
@@ -13306,6 +13307,31 @@ h1 a{color:#131313; font-weight:bold;} */
 .grid-container {
   display: grid;
   grid-gap: 50px 100px;
+}
+
+.soafablab h3 {
+  font-size: 2rem !important;
+}
+.soafablab h2 {
+  font-size: 3rem !important;
+}
+
+.demo .btn-secondary {
+  background-color: #11a99d !important;
+  border-color: #11a99d !important;
+}
+.demo .btn-primary {
+  background-color: #11a99d !important;
+  border-color: #11a99d !important;
+}
+.btn-secondary .focus {
+  box-shadow: none !important;
+}
+
+.demo .card:hover {
+  transition: none !important;
+  box-shadow: none !important;
+  transform: translateY(0) !important;
 }
 
 @media only screen and (max-width: 600px) {
