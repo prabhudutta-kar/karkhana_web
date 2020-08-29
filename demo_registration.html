@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Karkhana" />
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font/flaticon.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="css/colors5533.css?color=0A8F89"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="coworking.css" type="text/css" />
+
+    <title>Karkhana Makerspace - Blending Hardware</title>
+  </head>
+  <body class="stretched">
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"
+    ></script>
+    <div id="wrapper" class="clearfix">
+      <header id="header" class="clearfix static-sticky border-bottom-0">
+        <div id="header-wrap">
+          <div class="container clearfix">
+            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+            <div id="logo">
+              <a
+                href="index.html"
+                class="standard-logo"
+                data-sticky-logo="images/logo.png"
+                ><img src="images/logo.png" alt="Canvas Logo"
+              /></a>
+              <a
+                href="index.html"
+                class="retina-logo"
+                data-sticky-logo="images/logo-sticky@2x.png"
+                ><img src="images/logo.png" alt="Canvas Logo"
+              /></a>
+            </div>
+
+            <nav class="mx-auto" id="primary-menu" style="width: 68%">
+              <ul class="justify-content-center">
+                <li>
+                  <a href="#"
+                    ><div
+                      style="letter-spacing: 1px; text-transform: uppercase"
+                    >
+                      K12 Modules
+                      <i class="icon-chevron-down"></i></div
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="./k12module.html"><div>Module 1</div></a>
+                    </li>
+                    <li>
+                      <a href="./k12module.html"><div>Module 2</div></a>
+                    </li>
+                    <li>
+                      <a href="./k12module.html"><div>Module 3</div></a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="./setup_makerspace.html"
+                    ><div
+                      style="letter-spacing: 1px; text-transform: uppercase"
+                    >
+                      Setup Makerspace
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a href="./virtual_course.html"
+                    ><div
+                      style="letter-spacing: 1px; text-transform: uppercase"
+                    >
+                      Virtual Programs
+                    </div></a
+                  >
+                </li>
+              </ul>
+
+              <div id="top-account">
+                <a href="#"
+                  ><i class="flaticon-login-1"></i>
+                  <span style="letter-spacing: 1px">Login</span></a
+                >
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="container demo">
+        <div class="col-lg-12 justify-content-center text-center">
+          <h3 style="font-weight: 400 !important">
+            Book Your <span style="color: lightseagreen">Live Demo</span> in One
+            minute
+          </h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <span class="anchor" id="formComplex"></span>
+            <!-- form complex example -->
+            <div
+              class="card card-outline-secondary"
+              style="margin-bottom: 2rem !important"
+            >
+              <!-- <div class="card-header">
+                <h3 class="mb-0">Complex Form Example</h3>
+              </div> -->
+              <div class="card-body">
+                <div class="row mt-4">
+                  <div class="col-sm-4 pb-3">
+                    <label for="exampleFirst"
+                      >Student's First Name
+                      <span style="color: red !important">*</span></label
+                    >
+                    <input
+                      class="form-control"
+                      id="exampleFirst"
+                      type="text"
+                      required
+                    />
+                  </div>
+                  <div class="col-sm-4 pb-3">
+                    <label for="exampleLast">Student's Middle Name</label>
+                    <input class="form-control" id="exampleLast" type="text" />
+                  </div>
+                  <div class="col-sm-4 pb-3">
+                    <label for="exampleLast">Student's Last Name</label>
+                    <input class="form-control" id="exampleLast" type="text" />
+                  </div>
+                  <div class="col-sm-4 pb-3">
+                    <label for="exampleFirst"
+                      >Parent's First Name
+                      <span style="color: red !important">*</span></label
+                    >
+                    <input
+                      class="form-control"
+                      id="exampleFirst"
+                      type="text"
+                      required
+                    />
+                  </div>
+                  <div class="col-sm-4 pb-3">
+                    <label for="exampleLast">Parent's Middle Name</label>
+                    <input class="form-control" id="exampleLast" type="text" />
+                  </div>
+                  <div class="col-sm-4 pb-3">
+                    <label for="exampleLast">Parent's Last Name</label>
+                    <input class="form-control" id="exampleLast" type="text" />
+                  </div>
+                  <div class="col-sm-6 pb-3">
+                    <label for="exampleCity"
+                      >Parent's Email Id
+                      <span style="color: red !important">*</span></label
+                    >
+                    <input
+                      class="form-control"
+                      id="exampleCity"
+                      type="email"
+                      required
+                    />
+                  </div>
+                  <div class="col-sm-6 pb-3">
+                    <label for="exampleCity">Student's Email Id</label>
+                    <input class="form-control" id="exampleCity" type="email" />
+                  </div>
+                  <div class="col-sm-6 pb-3">
+                    <label for="exampleSt"
+                      >Country Code
+                      <span style="color: red !important">*</span></label
+                    >
+                    <select class="form-control custom-select" id="exampleSt">
+                      <option value=" ">Select Country Code</option>
+                      <option value="+93_AF">Afghanistan +93</option>
+                      <option value="+358_AX">Åland Islands +358</option>
+                      <option value="+355_AL">Albania +355</option>
+                      <option value="+213_DZ">Algeria +213</option>
+                      <option value="+1684_AS">American Samoa +1684</option>
+                      <option value="+376_AD">Andorra +376</option>
+                      <option value="+244_AO">Angola +244</option>
+                      <option value="+1264_AI">Anguilla +1264</option>
+                      <option value="+672_AQ">Antarctica +672</option>
+                      <option value="+1268_AG">
+                        Antigua and Barbuda +1268
+                      </option>
+                      <option value="+54_AR">Argentina +54</option>
+                      <option value="+374_AM">Armenia +374</option>
+                      <option value="+297_AW">Aruba +297</option>
+                      <option value="+61_AU">Australia +61</option>
+                      <option value="+43_AT">Austria +43</option>
+                      <option value="+994_AZ">Azerbaijan +994</option>
+                      <option value="+1242_BS">Bahamas +1242</option>
+                      <option value="+973_BH">Bahrain +973</option>
+                      <option value="+880_BD">Bangladesh +880</option>
+                      <option value="+1246_BB">Barbados +1246</option>
+                      <option value="+375_BY">Belarus +375</option>
+                      <option value="+32_BE">Belgium +32</option>
+                      <option value="+501_BZ">Belize +501</option>
+                      <option value="+229_BJ">Benin +229</option>
+                      <option value="+1441_BM">Bermuda +1441</option>
+                      <option value="+975_BT">Bhutan +975</option>
+                      <option value="+591_BO">
+                        Bolivia, Plurinational State of bolivia +591
+                      </option>
+                      <option value="+387_BA">
+                        Bosnia and Herzegovina +387
+                      </option>
+                      <option value="+267_BW">Botswana +267</option>
+                      <option value="+47_BV">Bouvet Island +47</option>
+                      <option value="+55_BR">Brazil +55</option>
+                      <option value="+246_IO">
+                        British Indian Ocean Territory +246
+                      </option>
+                      <option value="+673_BN">Brunei Darussalam +673</option>
+                      <option value="+359_BG">Bulgaria +359</option>
+                      <option value="+226_BF">Burkina Faso +226</option>
+                      <option value="+257_BI">Burundi +257</option>
+                      <option value="+855_KH">Cambodia +855</option>
+                      <option value="+237_CM">Cameroon +237</option>
+                      <option value="+1_CA">Canada +1</option>
+                      <option value="+238_CV">Cape Verde +238</option>
+                      <option value="+345_KY">Cayman Islands +345</option>
+                      <option value="+236_CF">
+                        Central African Republic +236
+                      </option>
+                      <option value="+235_TD">Chad +235</option>
+                      <option value="+56_CL">Chile +56</option>
+                      <option value="+86_CN">China +86</option>
+                      <option value="+61_CX">Christmas Island +61</option>
+                      <option value="+61_CC">
+                        Cocos (Keeling) Islands +61
+                      </option>
+                      <option value="+57_CO">Colombia +57</option>
+                      <option value="+269_KM">Comoros +269</option>
+                      <option value="+242_CG">Congo +242</option>
+                      <option value="+243_CD">
+                        Congo, The Democratic Republic of the Congo +243
+                      </option>
+                      <option value="+682_CK">Cook Islands +682</option>
+                      <option value="+506_CR">Costa Rica +506</option>
+                      <option value="+225_CI">Cote d'Ivoire +225</option>
+                      <option value="+385_HR">Croatia +385</option>
+                      <option value="+53_CU">Cuba +53</option>
+                      <option value="+357_CY">Cyprus +357</option>
+                      <option value="+420_CZ">Czech Republic +420</option>
+                      <option value="+45_DK">Denmark +45</option>
+                      <option value="+253_DJ">Djibouti +253</option>
+                      <option value="+1767_DM">Dominica +1767</option>
+                      <option value="+1849_DO">Dominican Republic +1849</option>
+                      <option value="+593_EC">Ecuador +593</option>
+                      <option value="+20_EG">Egypt +20</option>
+                      <option value="+503_SV">El Salvador +503</option>
+                      <option value="+240_GQ">Equatorial Guinea +240</option>
+                      <option value="+291_ER">Eritrea +291</option>
+                      <option value="+372_EE">Estonia +372</option>
+                      <option value="+251_ET">Ethiopia +251</option>
+                      <option value="+500_FK">
+                        Falkland Islands (Malvinas) +500
+                      </option>
+                      <option value="+298_FO">Faroe Islands +298</option>
+                      <option value="+679_FJ">Fiji +679</option>
+                      <option value="+358_FI">Finland +358</option>
+                      <option value="+33_FR">France +33</option>
+                      <option value="+594_GF">French Guiana +594</option>
+                      <option value="+689_PF">French Polynesia +689</option>
+                      <option value="+262_TF">
+                        French Southern Territories +262
+                      </option>
+                      <option value="+241_GA">Gabon +241</option>
+                      <option value="+220_GM">Gambia +220</option>
+                      <option value="+995_GE">Georgia +995</option>
+                      <option value="+49_DE">Germany +49</option>
+                      <option value="+233_GH">Ghana +233</option>
+                      <option value="+350_GI">Gibraltar +350</option>
+                      <option value="+30_GR">Greece +30</option>
+                      <option value="+299_GL">Greenland +299</option>
+                      <option value="+1473_GD">Grenada +1473</option>
+                      <option value="+590_GP">Guadeloupe +590</option>
+                      <option value="+1671_GU">Guam +1671</option>
+                      <option value="+502_GT">Guatemala +502</option>
+                      <option value="+44_GG">Guernsey +44</option>
+                      <option value="+224_GN">Guinea +224</option>
+                      <option value="+245_GW">Guinea-Bissau +245</option>
+                      <option value="+592_GY">Guyana +592</option>
+                      <option value="+509_HT">Haiti +509</option>
+                      <option value="+672_HM">
+                        Heard Island and Mcdonald Islands +672
+                      </option>
+                      <option value="+379_VA">
+                        Holy See (Vatican City State) +379
+                      </option>
+                      <option value="+504_HN">Honduras +504</option>
+                      <option value="+852_HK">Hong Kong +852</option>
+                      <option value="+36_HU">Hungary +36</option>
+                      <option value="+354_IS">Iceland +354</option>
+                      <option value="+91_IN">India +91</option>
+                      <option value="+62_ID">Indonesia +62</option>
+                      <option value="+98_IR">
+                        Iran, Islamic Republic of Persian Gulf +98
+                      </option>
+                      <option value="+964_IQ">Iraq +964</option>
+                      <option value="+353_IE">Ireland +353</option>
+                      <option value="+44_IM">Isle of Man +44</option>
+                      <option value="+972_IL">Israel +972</option>
+                      <option value="+39_IT">Italy +39</option>
+                      <option value="+1876_JM">Jamaica +1876</option>
+                      <option value="+81_JP">Japan +81</option>
+                      <option value="+44_JE">Jersey +44</option>
+                      <option value="+962_JO">Jordan +962</option>
+                      <option value="+7_KZ">Kazakhstan +7</option>
+                      <option value="+254_KE">Kenya +254</option>
+                      <option value="+686_KI">Kiribati +686</option>
+                      <option value="+850_KP">
+                        Korea, Democratic People's Republic of Korea +850
+                      </option>
+                      <option value="+82_KR">
+                        Korea, Republic of South Korea +82
+                      </option>
+                      <option value="+383_XK">Kosovo +383</option>
+                      <option value="+965_KW">Kuwait +965</option>
+                      <option value="+996_KG">Kyrgyzstan +996</option>
+                      <option value="+856_LA">Laos +856</option>
+                      <option value="+371_LV">Latvia +371</option>
+                      <option value="+961_LB">Lebanon +961</option>
+                      <option value="+266_LS">Lesotho +266</option>
+                      <option value="+231_LR">Liberia +231</option>
+                      <option value="+218_LY">
+                        Libyan Arab Jamahiriya +218
+                      </option>
+                      <option value="+423_LI">Liechtenstein +423</option>
+                      <option value="+370_LT">Lithuania +370</option>
+                      <option value="+352_LU">Luxembourg +352</option>
+                      <option value="+853_MO">Macao +853</option>
+                      <option value="+389_MK">Macedonia +389</option>
+                      <option value="+261_MG">Madagascar +261</option>
+                      <option value="+265_MW">Malawi +265</option>
+                      <option value="+60_MY">Malaysia +60</option>
+                      <option value="+960_MV">Maldives +960</option>
+                      <option value="+223_ML">Mali +223</option>
+                      <option value="+356_MT">Malta +356</option>
+                      <option value="+692_MH">Marshall Islands +692</option>
+                      <option value="+596_MQ">Martinique +596</option>
+                      <option value="+222_MR">Mauritania +222</option>
+                      <option value="+230_MU">Mauritius +230</option>
+                      <option value="+262_YT">Mayotte +262</option>
+                      <option value="+52_MX">Mexico +52</option>
+                      <option value="+691_FM">
+                        Micronesia, Federated States of Micronesia +691
+                      </option>
+                      <option value="+373_MD">Moldova +373</option>
+                      <option value="+377_MC">Monaco +377</option>
+                      <option value="+976_MN">Mongolia +976</option>
+                      <option value="+382_ME">Montenegro +382</option>
+                      <option value="+1664_MS">Montserrat +1664</option>
+                      <option value="+212_MA">Morocco +212</option>
+                      <option value="+258_MZ">Mozambique +258</option>
+                      <option value="+95_MM">Myanmar +95</option>
+                      <option value="+264_NA">Namibia +264</option>
+                      <option value="+674_NR">Nauru +674</option>
+                      <option value="+977_NP">Nepal +977</option>
+                      <option value="+31_NL">Netherlands +31</option>
+                      <option value="+599_AN">Netherlands Antilles +599</option>
+                      <option value="+687_NC">New Caledonia +687</option>
+                      <option value="+64_NZ">New Zealand +64</option>
+                      <option value="+505_NI">Nicaragua +505</option>
+                      <option value="+227_NE">Niger +227</option>
+                      <option value="+234_NG">Nigeria +234</option>
+                      <option value="+683_NU">Niue +683</option>
+                      <option value="+672_NF">Norfolk Island +672</option>
+                      <option value="+1670_MP">
+                        Northern Mariana Islands +1670
+                      </option>
+                      <option value="+47_NO">Norway +47</option>
+                      <option value="+968_OM">Oman +968</option>
+                      <option value="+92_PK">Pakistan +92</option>
+                      <option value="+680_PW">Palau +680</option>
+                      <option value="+970_PS">
+                        Palestinian Territory, Occupied +970
+                      </option>
+                      <option value="+507_PA">Panama +507</option>
+                      <option value="+675_PG">Papua New Guinea +675</option>
+                      <option value="+595_PY">Paraguay +595</option>
+                      <option value="+51_PE">Peru +51</option>
+                      <option value="+63_PH">Philippines +63</option>
+                      <option value="+64_PN">Pitcairn +64</option>
+                      <option value="+48_PL">Poland +48</option>
+                      <option value="+351_PT">Portugal +351</option>
+                      <option value="+1939_PR">Puerto Rico +1939</option>
+                      <option value="+974_QA">Qatar +974</option>
+                      <option value="+40_RO">Romania +40</option>
+                      <option value="+7_RU">Russia +7</option>
+                      <option value="+250_RW">Rwanda +250</option>
+                      <option value="+262_RE">Reunion +262</option>
+                      <option value="+590_BL">Saint Barthelemy +590</option>
+                      <option value="+290_SH">
+                        Saint Helena, Ascension and Tristan Da Cunha +290
+                      </option>
+                      <option value="+1869_KN">
+                        Saint Kitts and Nevis +1869
+                      </option>
+                      <option value="+1758_LC">Saint Lucia +1758</option>
+                      <option value="+590_MF">Saint Martin +590</option>
+                      <option value="+508_PM">
+                        Saint Pierre and Miquelon +508
+                      </option>
+                      <option value="+1784_VC">
+                        Saint Vincent and the Grenadines +1784
+                      </option>
+                      <option value="+685_WS">Samoa +685</option>
+                      <option value="+378_SM">San Marino +378</option>
+                      <option value="+239_ST">
+                        Sao Tome and Principe +239
+                      </option>
+                      <option value="+966_SA">Saudi Arabia +966</option>
+                      <option value="+221_SN">Senegal +221</option>
+                      <option value="+381_RS">Serbia +381</option>
+                      <option value="+248_SC">Seychelles +248</option>
+                      <option value="+232_SL">Sierra Leone +232</option>
+                      <option value="+65_SG">Singapore +65</option>
+                      <option value="+421_SK">Slovakia +421</option>
+                      <option value="+386_SI">Slovenia +386</option>
+                      <option value="+677_SB">Solomon Islands +677</option>
+                      <option value="+252_SO">Somalia +252</option>
+                      <option value="+27_ZA">South Africa +27</option>
+                      <option value="+211_SS">South Sudan +211</option>
+                      <option value="+500_GS">
+                        South Georgia and the South Sandwich Islands +500
+                      </option>
+                      <option value="+34_ES">Spain +34</option>
+                      <option value="+94_LK">Sri Lanka +94</option>
+                      <option value="+249_SD">Sudan +249</option>
+                      <option value="+597_SR">Suriname +597</option>
+                      <option value="+47_SJ">Svalbard and Jan Mayen +47</option>
+                      <option value="+268_SZ">Swaziland +268</option>
+                      <option value="+46_SE">Sweden +46</option>
+                      <option value="+41_CH">Switzerland +41</option>
+                      <option value="+963_SY">Syrian Arab Republic +963</option>
+                      <option value="+886_TW">Taiwan +886</option>
+                      <option value="+992_TJ">Tajikistan +992</option>
+                      <option value="+255_TZ">
+                        Tanzania, United Republic of Tanzania +255
+                      </option>
+                      <option value="+66_TH">Thailand +66</option>
+                      <option value="+670_TL">Timor-Leste +670</option>
+                      <option value="+228_TG">Togo +228</option>
+                      <option value="+690_TK">Tokelau +690</option>
+                      <option value="+676_TO">Tonga +676</option>
+                      <option value="+1868_TT">
+                        Trinidad and Tobago +1868
+                      </option>
+                      <option value="+216_TN">Tunisia +216</option>
+                      <option value="+90_TR">Turkey +90</option>
+                      <option value="+993_TM">Turkmenistan +993</option>
+                      <option value="+1649_TC">
+                        Turks and Caicos Islands +1649
+                      </option>
+                      <option value="+688_TV">Tuvalu +688</option>
+                      <option value="+256_UG">Uganda +256</option>
+                      <option value="+380_UA">Ukraine +380</option>
+                      <option value="+971_AE">United Arab Emirates +971</option>
+                      <option value="+44_GB">United Kingdom +44</option>
+                      <option value="+1_US">USA +1</option>
+                      <option value="+598_UY">Uruguay +598</option>
+                      <option value="+998_UZ">Uzbekistan +998</option>
+                      <option value="+678_VU">Vanuatu +678</option>
+                      <option value="+58_VE">
+                        Venezuela, Bolivarian Republic of Venezuela +58
+                      </option>
+                      <option value="+84_VN">Vietnam +84</option>
+                      <option value="+1284_VG">
+                        Virgin Islands, British +1284
+                      </option>
+                      <option value="+1340_VI">
+                        Virgin Islands, U.S. +1340
+                      </option>
+                      <option value="+681_WF">Wallis and Futuna +681</option>
+                      <option value="+967_YE">Yemen +967</option>
+                      <option value="+260_ZM">Zambia +260</option>
+                      <option value="+263_ZW">Zimbabwe +263</option>
+                    </select>
+                  </div>
+
+                  <div class="col-sm-6 pb-3">
+                    <label for="exampleZip"
+                      >Parent's Mobile Number
+                      <span style="color: red !important">*</span></label
+                    >
+                    <input class="form-control" id="exampleZip" type="number" />
+                  </div>
+                  <div class="col-sm-6 pb-3">
+                    <label for="exampleSt">State</label>
+                    <select class="form-control custom-select" id="exampleSt">
+                      <option value=" ">Select State</option>
+                      <option value="AF">Afghanistan</option>
+                      <option value="AX">Åland Islands</option>
+                      <option value="AL">Albania</option>
+                      <option value="DZ">Algeria</option>
+                      <option value="AS">American Samoa</option>
+                      <option value="AD">Andorra</option>
+                      <option value="AO">Angola</option>
+                      <option value="AI">Anguilla</option>
+                      <option value="AQ">Antarctica</option>
+                      <option value="AG">Antigua and Barbuda</option>
+                      <option value="AR">Argentina</option>
+                      <option value="AM">Armenia</option>
+                      <option value="AW">Aruba</option>
+                      <option value="AU">Australia</option>
+                      <option value="AT">Austria</option>
+                      <option value="AZ">Azerbaijan</option>
+                      <option value="BS">Bahamas</option>
+                      <option value="BH">Bahrain</option>
+                      <option value="BD">Bangladesh</option>
+                      <option value="BB">Barbados</option>
+                      <option value="BY">Belarus</option>
+                      <option value="BE">Belgium</option>
+                      <option value="BZ">Belize</option>
+                      <option value="BJ">Benin</option>
+                      <option value="BM">Bermuda</option>
+                      <option value="BT">Bhutan</option>
+                      <option value="BO">
+                        Bolivia, Plurinational State of
+                      </option>
+                      <option value="BQ">
+                        Bonaire, Sint Eustatius and Saba
+                      </option>
+                      <option value="BA">Bosnia and Herzegovina</option>
+                      <option value="BW">Botswana</option>
+                      <option value="BV">Bouvet Island</option>
+                      <option value="BR">Brazil</option>
+                      <option value="IO">British Indian Ocean Territory</option>
+                      <option value="BN">Brunei Darussalam</option>
+                      <option value="BG">Bulgaria</option>
+                      <option value="BF">Burkina Faso</option>
+                      <option value="BI">Burundi</option>
+                      <option value="KH">Cambodia</option>
+                      <option value="CM">Cameroon</option>
+                      <option value="CA">Canada</option>
+                      <option value="CV">Cape Verde</option>
+                      <option value="KY">Cayman Islands</option>
+                      <option value="CF">Central African Republic</option>
+                      <option value="TD">Chad</option>
+                      <option value="CL">Chile</option>
+                      <option value="CN">China</option>
+                      <option value="CX">Christmas Island</option>
+                      <option value="CC">Cocos (Keeling) Islands</option>
+                      <option value="CO">Colombia</option>
+                      <option value="KM">Comoros</option>
+                      <option value="CG">Congo</option>
+                      <option value="CD"></option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 pb-3">
+                    <label for="exampleZip">City</label>
+                    <input class="form-control" id="exampleZip" type="text" />
+                  </div>
+                  <div class="col-12 pb-3">
+                    <label for="exampleAccount"
+                      >Kid's Grade / Class
+                      <span style="color: red !important">*</span></label
+                    >
+                    <br />
+                    <div
+                      class="btn-group"
+                      data-toggle="buttons"
+                      aria-required="true"
+                    >
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          checked
+                          id="blue"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        3
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          id="red"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        4
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          id="green"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        5
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          id="yellow"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        6
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          id="black"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        7
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          id="black"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        8
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          id="black"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        9
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          id="black"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        10
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          id="black"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        11
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input
+                          autocomplete="off"
+                          id="black"
+                          name="options"
+                          type="radio"
+                        />
+                        <br />
+                        12
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12 pb-3">
+                    <label for="exampleAccount"
+                      >Do you have laptop / PC at home?
+                      <span style="color: red !important">*</span></label
+                    >
+                    <br />
+                    <label for="" aria-required="true">
+                      <input autocomplete="off" name="pc" type="radio" />
+                      Yes &nbsp;
+                      <input autocomplete="off" name="pc" type="radio" />
+                      No
+                    </label>
+                  </div>
+                  <div class="col-12">
+                    <p>
+                      By registering here, I agree to Karkhana
+                      <a
+                        href="./terms.html"
+                        style="
+                          text-decoration: none !important;
+                          background-color: transparent !important;
+                        "
+                        >Terms & Conditions</a
+                      >
+                      and
+                      <a
+                        href="./privacy.html"
+                        style="
+                          text-decoration: none !important;
+                          background-color: transparent !important;
+                        "
+                        >Privacy Policy</a
+                      >
+                    </p>
+                    <div class="float-left">
+                      <input
+                        class="btn btn-primary"
+                        type="button"
+                        value="Schedule a Free demo"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/card-->
+          </div>
+          <div class="col-md-4">
+            <img src="./images/illust.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <footer id="footer" class="noborder" style="background-color: #0a8f89">
+        <div class="container">
+          <div class="footer-widgets-wrap dark pb-5 clearfix">
+            <div class="row">
+              <div class="col-lg-2 col-md-2 col-6">
+                <div class="widget clearfix">
+                  <h4 class="ls0 mb-4 nott text-white">Features</h4>
+                  <ul class="list-unstyled ml-0">
+                    <li class="mb-2">
+                      <a href="./setup_makerspace.html">Setup Makerspace</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="./virtual_course.html">Virtual Programs</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-6">
+                <div class="widget clearfix">
+                  <h4 class="ls0 mb-4 nott text-white">About</h4>
+                  <ul class="list-unstyled ml-0">
+                    <li class="mb-2"><a href="./index.html">Home</a></li>
+                    <li class="mb-2">
+                      <a href="./our_story.html">Our Story</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="./our_makers.html">Our Makers</a>
+                    </li>
+                    <li class="mb-2"><a href="./our_team.html">Our Team</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-6">
+                <div class="widget clearfix">
+                  <h4 class="ls0 mb-4 nott text-white">Programs</h4>
+                  <ul class="list-unstyled ml-0">
+                    <li class="mb-2">
+                      <a href="./k12module.html">Module 1</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="./k12module.html">Module 2</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="./k12module.html">Module 3</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-6">
+                <div class="widget clearfix">
+                  <i class="icon-lock" style="font-size: 3.5rem"></i>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-6">
+                <div class="widget clearfix">
+                  <i class="icon-lock" style="font-size: 3.5rem"></i>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-6">
+                <div class="widget clearfix">
+                  <i class="icon-lock" style="font-size: 3.5rem"></i>
+                </div>
+              </div>
+              <div class="line" style="margin: 20px 0 !important"></div>
+              <div class="row">
+                <div class="col-sm-3">
+                  <a href="index.html"
+                    ><img
+                      src="images/logo-footer.png"
+                      alt="Logo Footer"
+                      class="mb-4"
+                      height="90"
+                  /></a>
+                  <br />
+                  <a
+                    href="https://www.facebook.com/indiakarkhana/"
+                    class="social-icon si-small si-light si-facebook"
+                    title="Karkhana Facebook"
+                  >
+                    <i class="flaticon-facebook"></i>
+                    <i class="flaticon-facebook"></i>
+                  </a>
+                  <a
+                    href="https://twitter.com/indiakarkhana/"
+                    class="social-icon si-small si-light si-twitter"
+                    title=" Karkhana Twitter"
+                  >
+                    <i class="flaticon-twitter"></i>
+                    <i class="flaticon-twitter"></i>
+                  </a>
+                  <a
+                    href="https://www.youtube.com/channel/UCLl4ECihj8hGJIGMOJKlrEQ/"
+                    class="social-icon si-small si-light si-youtube"
+                    title="Karkhana YouTube"
+                  >
+                    <i class="flaticon-youtube"></i>
+                    <i class="flaticon-youtube"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/indiakarkhana/"
+                    class="social-icon si-small si-light si-instagram"
+                    title="Karkhana Instagram"
+                  >
+                    <i class="flaticon-instagram"></i>
+                    <i class="flaticon-instagram"></i>
+                  </a>
+                </div>
+                <div class="col-sm-9">
+                  <ul class="list-numbers" style="margin-bottom: 0 !important">
+                    <li class="text-white-50 t300">
+                      Karkhana helps you realise your innate passions and
+                      provide proficient niche hands-on skills. Our main goal is
+                      to set up Mini Factories/Makerspaces to revive the now
+                      lost innovation culture.
+                    </li>
+                    <li class="text-white-50 t300">
+                      We accredit the next generation with the skills to build a
+                      better future for all and fuel their ambitions
+                    </li>
+                    <li
+                      class="text-white-50 t300 text-center"
+                      style="list-style-type: none"
+                    >
+                      <b>“Reinventing Making through Makerspaces”</b>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="copyrights" class="nobg dark pt-0 text-center">
+          <!-- <div class="line mt-0"></div> -->
+          <div class="container clearfix">
+            <div class="row">
+              <div class="col-12">
+                <p class="mb-2 text-white-50">
+                  Copyrights &copy; 2020 Sudolearn Solutions Pvt. Ltd.
+                </p>
+                <div class="copyright-links text-white-50">
+                  <a href="./terms.html" class="text-white-50">Terms of Use</a>
+                  <a href="./privacy.html" class="text-white-50"
+                    >Privacy Policy</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <script src="js/functions.js"></script>
+    <script>
+      $("#recipeCarousel").carousel({
+        interval: 10000,
+      });
+
+      $(".carousel .carousel-item").each(function () {
+        var minPerSlide = 3;
+        var next = $(this).next();
+        if (!next.length) {
+          next = $(this).siblings(":first");
+        }
+        next.children(":first-child").clone().appendTo($(this));
+
+        for (var i = 0; i < minPerSlide; i++) {
+          next = next.next();
+          if (!next.length) {
+            next = $(this).siblings(":first");
+          }
+
+          next.children(":first-child").clone().appendTo($(this));
+        }
+      });
+    </script>
+  </body>
+
+  <!-- Mirrored from themes.semicolonweb.com/html/canvas/demo-coworking.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Sep 2019 13:46:11 GMT -->
+</html>
