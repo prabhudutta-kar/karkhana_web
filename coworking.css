@@ -47,7 +47,7 @@
 }
 
 .hero-features-left {
-  transform: translateY(-50%);
+  transform: translateY(-25%);
   padding: 40px 30px;
   max-width: 80%;
   border-top-right-radius: 6px;
